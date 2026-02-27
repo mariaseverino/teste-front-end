@@ -1,0 +1,144 @@
+.mainHeader {
+    width: 1280px;
+    height: 144px;
+    margin: auto;
+    .container {
+        height: 72px;
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+
+        border-top: 1px solid #f0f0f0;
+        border-bottom: 1px solid #f0f0f0;
+    }
+}
+
+.notification {
+    ul {
+        display: flex;
+        list-style: none;
+        margin: 0;
+        padding: 6px 0;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        gap: 119px;
+        height: 20px;
+
+        li {
+            display: flex;
+            align-items: center;
+            gap: 9px;
+            font-size: 12px;
+            font-weight: 500;
+            color: #9f9f9f;
+        }
+
+        img {
+            width: 20px;
+            height: 20px;
+        }
+
+        span {
+            color: #3019b2;
+            font-weight: 600;
+        }
+    }
+}
+
+.logo {
+    width: 139px;
+    height: 41.3px;
+}
+
+.searchBar {
+    display: flex;
+    width: 630px;
+    height: 44px;
+    justify-content: space-between;
+    background-color: #f6f5f2;
+    border-radius: 10px;
+
+    input {
+        flex: 1;
+        padding: 0 10px;
+        border: none;
+        outline: none;
+        background-color: transparent;
+        font-size: 14px;
+    }
+
+    button {
+        background-color: transparent;
+        display: flex;
+        align-items: center;
+        border: none;
+        padding: 0 23px;
+        cursor: pointer;
+
+        img {
+            height: 28px;
+            width: 28px;
+        }
+    }
+}
+
+.userActions {
+    ul {
+        display: flex;
+        list-style: none;
+        gap: 32px;
+        margin: 0;
+        padding: 0;
+        display: flex;
+        align-items: center;
+        height: 32px;
+    }
+
+    button {
+        background: none;
+        border: none;
+        cursor: pointer;
+
+        img {
+            height: 32px;
+            width: 32px;
+        }
+
+        .boxIcon {
+            height: 24px;
+            width: 24px;
+        }
+    }
+}
+
+.categoryNav {
+    box-shadow: 0 8px 16px rgba(57, 48, 19, 0.12);
+
+    ul {
+        display: flex;
+        list-style: none;
+        width: 1280px;
+        justify-content: center;
+        padding: 0;
+        margin: 0;
+        align-items: center;
+        height: 40px;
+        gap: 91px;
+
+        a {
+            text-decoration: none;
+            font-weight: 600;
+            text-transform: uppercase;
+            display: flex;
+            align-items: center;
+            gap: 10px;
+            font-size: 12px;
+            color: #9f9f9f;
+
+            &.sale {
+                color: #3019b2;
+            }
+        }
+    }
+}
