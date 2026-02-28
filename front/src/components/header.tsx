@@ -70,20 +70,12 @@ export function Header() {
                         </li>
                         <li>
                             <button aria-label="Minha Conta">
-                                <img
-                                    src={userIcon}
-                                    className="logo"
-                                    alt="Vite logo"
-                                />
+                                <img src={userIcon} />
                             </button>
                         </li>
                         <li>
                             <button aria-label="Carrinho de Compras">
-                                <img
-                                    src={shoppingCartIcon}
-                                    className="logo"
-                                    alt="Vite logo"
-                                />
+                                <img src={shoppingCartIcon} />
                             </button>
                         </li>
                     </ul>

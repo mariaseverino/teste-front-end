@@ -1,0 +1,14 @@
+.card {
+    width: 128px;
+    height: 128px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    box-shadow: 0 2px 9px rgba(0, 0, 0, 0.12);
+    border-radius: 10px;
+
+    img {
+        width: 61px;
+        height: 61px;
+    }
+}
