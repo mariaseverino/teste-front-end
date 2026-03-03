@@ -1,0 +1,68 @@
+.call_to_action {
+    width: 100vw;
+    background-color: #271c47;
+}
+
+.container {
+    padding: 40px 80px;
+    display: flex;
+    justify-content: space-between;
+
+    h2 {
+        color: #fff;
+        font-size: 32px;
+        font-weight: 600;
+    }
+
+    p {
+        color: #fff;
+        font-size: 14px;
+        font-weight: 400;
+        width: 512px;
+        margin-top: 8px;
+    }
+
+    form {
+        display: flex;
+        flex-direction: column;
+        gap: 8px;
+
+        div {
+            display: flex;
+            gap: 8px;
+            align-items: center;
+        }
+    }
+
+    input {
+        width: 233px;
+        height: 42px;
+        border-radius: 8px;
+        outline: none;
+        border: none;
+        padding: 12px 24px;
+    }
+
+    button {
+        background-color: #f7ca11;
+        color: #161615;
+        font-size: 14px;
+        font-weight: 600;
+        text-transform: uppercase;
+        outline: none;
+        border: none;
+        width: 157px;
+        height: 42px;
+        border-radius: 8px;
+    }
+
+    .checkbox {
+        width: 15px;
+        height: 15px;
+    }
+
+    span {
+        color: #fff;
+        font-size: 14px;
+    }
+}
