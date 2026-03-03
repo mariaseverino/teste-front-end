@@ -37,9 +37,7 @@ export function Header() {
             </div>
             <div className={styles.container}>
                 <div>
-                    <a href="https://vite.dev" target="_blank">
-                        <img src={logo} className="logo" alt="Vite logo" />
-                    </a>
+                    <img src={logo} className="logo" alt="Econverse logo" />
                 </div>
 
                 <form

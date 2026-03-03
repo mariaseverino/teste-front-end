@@ -2,4 +2,17 @@
     color: #3442b5;
     width: 1364px;
     margin: 87px auto;
+
+    display: flex;
+    flex-direction: column;
+}
+
+a {
+    margin: auto;
+    margin-bottom: 24px;
+    font-weight: 700;
+    font-size: 15px;
+    color: #3f3f40;
+    text-decoration: none;
+    display: inline-block;
 }
