@@ -1,0 +1,16 @@
+.productTypeList {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 20px;
+
+    div {
+        border: 1px solid #bdbdbd;
+        width: 214.17px;
+        height: 40px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        text-transform: uppercase;
+        font-size: 16px;
+    }
+}

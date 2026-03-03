@@ -1,0 +1,64 @@
+.card {
+    width: 304px;
+    height: 500px;
+    box-shadow: 0 3px 19px rgba(0, 0, 0, 0.22);
+    padding: 32px 12px 16px 12px;
+    border-radius: 10px;
+    background-color: #fff;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+
+    img {
+        width: 278.1px;
+        height: 228px;
+    }
+
+    .title {
+        color: #3f3f40;
+        font-size: 15px;
+        font-weight: 300;
+        margin-bottom: 10px;
+    }
+
+    div {
+        width: 100%;
+    }
+
+    p {
+        font-size: 12px;
+        color: #3f3f40;
+    }
+
+    .free {
+        font-size: 12px;
+        margin-top: 12px;
+        color: #3442b5;
+    }
+
+    .oldPrice {
+        color: #808080;
+        font-size: 16px;
+        text-decoration: line-through;
+    }
+
+    .newPrice {
+        color: #3f3f40;
+        font-size: 20px;
+        font-weight: 700;
+    }
+
+    button {
+        width: 100%;
+        height: 44px;
+        background-color: #3442b5;
+        color: #fff;
+        outline: none;
+        border: none;
+        border-radius: 4px;
+        font-size: 14px;
+        text-transform: uppercase;
+        font-weight: 700;
+    }
+}

@@ -1,0 +1,41 @@
+$card-width: 304px;
+$gap: 18px;
+
+.carousel_container {
+    display: flex;
+    align-items: center;
+    position: relative;
+    max-width: calc(($card-width * 4) + ($gap * 3) + 19px);
+    margin: 0 auto;
+    padding-left: 9px;
+}
+
+.scroll_wrapper {
+    display: flex;
+    gap: $gap;
+    overflow-x: hidden;
+    scroll-behavior: smooth;
+    padding: 10px;
+}
+
+.prev,
+.next {
+    background: #fff;
+    border: none;
+    cursor: pointer;
+    position: absolute;
+    border-radius: 50%;
+    box-shadow: 0 4px 4px rgba(0, 0, 0, 0.25);
+    width: 32px;
+    height: 32px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.prev {
+    left: -50px;
+}
+.next {
+    right: -50px;
+}
