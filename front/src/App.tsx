@@ -5,6 +5,7 @@ import { ProductsCarrossel } from './components/ProductsCarrossel';
 import { SectionTitle } from './components/SectionTitle';
 import { ProductTypeList } from './components/ProductTypeList';
 import styles from './App.module.scss';
+import { PartnersSection } from './components/PartnersSection';
 
 export default function App() {
     return (
@@ -17,6 +18,7 @@ export default function App() {
                 <ProductTypeList />
                 <ProductsCarrossel />
             </section>
+            <PartnersSection />
         </>
     );
 }

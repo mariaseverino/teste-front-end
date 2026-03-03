@@ -1,0 +1,51 @@
+.partners_section {
+    width: 1281px;
+    margin: auto;
+}
+.partners {
+    display: flex;
+    gap: 13px;
+}
+
+.partner_card {
+    width: 634px;
+    height: 350px;
+
+    display: flex;
+    background-image: url('../../assets/partners.png');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    border-radius: 20px;
+    color: #fff;
+
+    align-items: end;
+
+    div {
+        padding: 40px 44px;
+    }
+
+    h1 {
+        font-weight: 700;
+        font-size: 40px;
+    }
+
+    p {
+        font-size: 16px;
+        width: 190px;
+    }
+
+    button {
+        color: #271c47;
+        margin-top: 32px;
+        border-radius: 6px;
+        background-color: #f7ca11;
+        font-weight: 700;
+        font-size: 16px;
+        text-transform: uppercase;
+        width: 144.69px;
+        height: 48px;
+        outline: none;
+        border: none;
+    }
+}
