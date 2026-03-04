@@ -26,11 +26,11 @@
 }
 
 .container {
-    width: 822px;
+    width: 1280px;
     position: relative;
     z-index: 2;
     color: white;
-    padding-left: 78px;
+    margin: auto;
 
     h1 {
         font-size: 48px;
@@ -38,6 +38,7 @@
         color: white;
         line-height: 1.04;
         margin-bottom: 20px;
+        width: 822px;
     }
 
     p {
