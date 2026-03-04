@@ -19,6 +19,8 @@ Instale com npm
 ```bash
 # Clone o repositório
 git clone https://github.com/mariaseverino/teste-front-end
+
+# Acesse o diretório do projeto
 cd teste-front-end/front
 
 # Instale as dependências
