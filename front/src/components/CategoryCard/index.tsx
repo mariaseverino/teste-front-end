@@ -1,4 +1,4 @@
-import styles from './categoryCard.module.scss';
+import styles from './styles.module.scss';
 
 interface CategoryCardProps {
     img: string;

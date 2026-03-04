@@ -1,14 +1,14 @@
-import styles from './header.module.scss';
-import logo from '../assets/logo.svg';
-import searchIcon from '../assets/MagnifyingGlass.svg';
-import boxIcon from '../assets/Group.svg';
-import heartIcon from '../assets/Heart.svg';
-import userIcon from '../assets/UserCircle.svg';
-import shoppingCartIcon from '../assets/ShoppingCart.svg';
-import shildCheckIcon from '../assets/ShieldCheck.svg';
-import truckIcon from '../assets/Truck.svg';
-import creditCardIcon from '../assets/CreditCard.svg';
-import crownIcon from '../assets/CrownSimple.svg';
+import styles from './styles.module.scss';
+import logo from '../../assets/logo.svg';
+import searchIcon from '../../assets/MagnifyingGlass.svg';
+import boxIcon from '../../assets/Group.svg';
+import heartIcon from '../../assets/Heart.svg';
+import userIcon from '../../assets/UserCircle.svg';
+import shoppingCartIcon from '../../assets/ShoppingCart.svg';
+import shildCheckIcon from '../../assets/ShieldCheck.svg';
+import truckIcon from '../../assets/Truck.svg';
+import creditCardIcon from '../../assets/CreditCard.svg';
+import crownIcon from '../../assets/CrownSimple.svg';
 
 export function Header() {
     return (

@@ -1,4 +1,4 @@
-import styles from './categories.module.scss';
+import styles from './styles.module.scss';
 import screen from '../../assets/screen.png';
 import market from '../../assets/market.png';
 import drink from '../../assets/drink.png';
@@ -6,7 +6,7 @@ import tools from '../../assets/tools.png';
 import health from '../../assets/health.png';
 import sports from '../../assets/sports.png';
 import fashion from '../../assets/fashion.png';
-import { CategoryCard } from '../categoryCard/categoryCard';
+import { CategoryCard } from '../CategoryCard';
 
 export function Categories() {
     const categories = [

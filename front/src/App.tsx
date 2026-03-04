@@ -1,6 +1,6 @@
-import { Header } from './components/header';
-import { Hero } from './components/hero/hero';
-import { Categories } from './components/categories/categories';
+import { Header } from './components/Header';
+import { Hero } from './components/Hero';
+import { Categories } from './components/Categories';
 import { ProductsCarrossel } from './components/ProductsCarrossel';
 import { SectionTitle } from './components/SectionTitle';
 import { ProductTypeList } from './components/ProductTypeList';
